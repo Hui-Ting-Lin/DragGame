@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "60957d4f56a1ad3c98572eea0631290d-cupcake-heart-shaped-topping-flat-by-vexels.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

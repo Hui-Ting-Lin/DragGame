@@ -8,11 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		AB2D97F5261207CF001CD8D6 /* DragGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D97F4261207CF001CD8D6 /* DragGameApp.swift */; };
-		AB2D97F7261207CF001CD8D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D97F6261207CF001CD8D6 /* ContentView.swift */; };
-		AB2D97F9261207D2001CD8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2D97F8261207D2001CD8D6 /* Assets.xcassets */; };
 		AB2D97FC261207D2001CD8D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2D97FB261207D2001CD8D6 /* Preview Assets.xcassets */; };
 		AB2D9807261207D2001CD8D6 /* DragGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D9806261207D2001CD8D6 /* DragGameTests.swift */; };
 		AB2D9812261207D2001CD8D6 /* DragGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D9811261207D2001CD8D6 /* DragGameUITests.swift */; };
+		AB2D982E26120816001CD8D6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D982D26120816001CD8D6 /* HomeView.swift */; };
+		AB2D98332612084B001CD8D6 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D98322612084B001CD8D6 /* GameObject.swift */; };
+		AB2D98382612090E001CD8D6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D98372612090E001CD8D6 /* GameView.swift */; };
+		AB2D983D2612094E001CD8D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D983C2612094E001CD8D6 /* ViewController.swift */; };
+		AB2D984D26121A0A001CD8D6 /* SelectionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D984C26121A0A001CD8D6 /* SelectionObject.swift */; };
+		AB2D98AE261CA2B3001CD8D6 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D98AD261CA2B3001CD8D6 /* TimerView.swift */; };
+		AB2D98BE261CB548001CD8D6 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D98BD261CB548001CD8D6 /* Record.swift */; };
+		AB2D98C6261CB5F2001CD8D6 /* RecordsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D98C5261CB5F2001CD8D6 /* RecordsData.swift */; };
+		AB2D98CB261CB735001CD8D6 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D98CA261CB735001CD8D6 /* RecordsView.swift */; };
+		AB2D98E2261CB9C2001CD8D6 /* RecordRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D98E1261CB9C2001CD8D6 /* RecordRowView.swift */; };
+		AB2D98F2261CC132001CD8D6 /* uhoh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB2D98F1261CC132001CD8D6 /* uhoh.mp3 */; };
+		AB5702D3261E22900041A325 /* dingding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB5702D2261E22900041A325 /* dingding.mp3 */; };
+		AB952242261F40C2007F105A /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB952241261F40C2007F105A /* GameOverView.swift */; };
+		AB9522A42620C9B9007F105A /* bensound-cute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9522A32620C9B9007F105A /* bensound-cute.mp3 */; };
+		AB9522B72620CC94007F105A /* AVPlayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9522B62620CC94007F105A /* AVPlayer+Extensions.swift */; };
+		AB9522C226218552007F105A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9522C126218552007F105A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +49,6 @@
 /* Begin PBXFileReference section */
 		AB2D97F1261207CF001CD8D6 /* DragGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2D97F4261207CF001CD8D6 /* DragGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGameApp.swift; sourceTree = "<group>"; };
-		AB2D97F6261207CF001CD8D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AB2D97F8261207D2001CD8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB2D97FB261207D2001CD8D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB2D97FD261207D2001CD8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB2D9802261207D2001CD8D6 /* DragGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +57,22 @@
 		AB2D980D261207D2001CD8D6 /* DragGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2D9811261207D2001CD8D6 /* DragGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGameUITests.swift; sourceTree = "<group>"; };
 		AB2D9813261207D2001CD8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2D982D26120816001CD8D6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AB2D98322612084B001CD8D6 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		AB2D98372612090E001CD8D6 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		AB2D983C2612094E001CD8D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB2D984C26121A0A001CD8D6 /* SelectionObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionObject.swift; sourceTree = "<group>"; };
+		AB2D98AD261CA2B3001CD8D6 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		AB2D98BD261CB548001CD8D6 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		AB2D98C5261CB5F2001CD8D6 /* RecordsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsData.swift; sourceTree = "<group>"; };
+		AB2D98CA261CB735001CD8D6 /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
+		AB2D98E1261CB9C2001CD8D6 /* RecordRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRowView.swift; sourceTree = "<group>"; };
+		AB2D98F1261CC132001CD8D6 /* uhoh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uhoh.mp3; sourceTree = "<group>"; };
+		AB5702D2261E22900041A325 /* dingding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dingding.mp3; sourceTree = "<group>"; };
+		AB952241261F40C2007F105A /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		AB9522A32620C9B9007F105A /* bensound-cute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-cute.mp3"; sourceTree = "<group>"; };
+		AB9522B62620CC94007F105A /* AVPlayer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Extensions.swift"; sourceTree = "<group>"; };
+		AB9522C126218552007F105A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +123,22 @@
 		AB2D97F3261207CF001CD8D6 /* DragGame */ = {
 			isa = PBXGroup;
 			children = (
+				AB2D98F0261CC116001CD8D6 /* Resources */,
 				AB2D97F4261207CF001CD8D6 /* DragGameApp.swift */,
-				AB2D97F6261207CF001CD8D6 /* ContentView.swift */,
-				AB2D97F8261207D2001CD8D6 /* Assets.xcassets */,
+				AB2D98322612084B001CD8D6 /* GameObject.swift */,
+				AB2D984C26121A0A001CD8D6 /* SelectionObject.swift */,
+				AB2D983C2612094E001CD8D6 /* ViewController.swift */,
+				AB2D982D26120816001CD8D6 /* HomeView.swift */,
+				AB2D98372612090E001CD8D6 /* GameView.swift */,
+				AB2D98AD261CA2B3001CD8D6 /* TimerView.swift */,
+				AB2D98BD261CB548001CD8D6 /* Record.swift */,
+				AB2D98C5261CB5F2001CD8D6 /* RecordsData.swift */,
+				AB2D98CA261CB735001CD8D6 /* RecordsView.swift */,
+				AB2D98E1261CB9C2001CD8D6 /* RecordRowView.swift */,
+				AB952241261F40C2007F105A /* GameOverView.swift */,
+				AB9522B62620CC94007F105A /* AVPlayer+Extensions.swift */,
 				AB2D97FD261207D2001CD8D6 /* Info.plist */,
+				AB9522C126218552007F105A /* Assets.xcassets */,
 				AB2D97FA261207D2001CD8D6 /* Preview Content */,
 			);
 			path = DragGame;
@@ -128,6 +168,16 @@
 				AB2D9813261207D2001CD8D6 /* Info.plist */,
 			);
 			path = DragGameUITests;
+			sourceTree = "<group>";
+		};
+		AB2D98F0261CC116001CD8D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB9522A32620C9B9007F105A /* bensound-cute.mp3 */,
+				AB5702D2261E22900041A325 /* dingding.mp3 */,
+				AB2D98F1261CC132001CD8D6 /* uhoh.mp3 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +283,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9522A42620C9B9007F105A /* bensound-cute.mp3 in Resources */,
+				AB2D98F2261CC132001CD8D6 /* uhoh.mp3 in Resources */,
 				AB2D97FC261207D2001CD8D6 /* Preview Assets.xcassets in Resources */,
-				AB2D97F9261207D2001CD8D6 /* Assets.xcassets in Resources */,
+				AB5702D3261E22900041A325 /* dingding.mp3 in Resources */,
+				AB9522C226218552007F105A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +312,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB2D97F7261207CF001CD8D6 /* ContentView.swift in Sources */,
+				AB2D98AE261CA2B3001CD8D6 /* TimerView.swift in Sources */,
+				AB2D98C6261CB5F2001CD8D6 /* RecordsData.swift in Sources */,
+				AB2D983D2612094E001CD8D6 /* ViewController.swift in Sources */,
+				AB2D98BE261CB548001CD8D6 /* Record.swift in Sources */,
+				AB2D984D26121A0A001CD8D6 /* SelectionObject.swift in Sources */,
 				AB2D97F5261207CF001CD8D6 /* DragGameApp.swift in Sources */,
+				AB2D982E26120816001CD8D6 /* HomeView.swift in Sources */,
+				AB2D98382612090E001CD8D6 /* GameView.swift in Sources */,
+				AB2D98CB261CB735001CD8D6 /* RecordsView.swift in Sources */,
+				AB9522B72620CC94007F105A /* AVPlayer+Extensions.swift in Sources */,
+				AB2D98E2261CB9C2001CD8D6 /* RecordRowView.swift in Sources */,
+				AB952242261F40C2007F105A /* GameOverView.swift in Sources */,
+				AB2D98332612084B001CD8D6 /* GameObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

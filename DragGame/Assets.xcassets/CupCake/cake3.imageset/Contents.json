@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "292c24fb8a123f5cd7a78580e4ff201c-cupcake-sprinkles-swirl-topping-flat-by-vexels.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

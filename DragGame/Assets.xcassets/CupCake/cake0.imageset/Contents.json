@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "dd8e0d6e14016eaa306769926165f221-cupcake-candy-swirl-topping-flat-by-vexels.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
